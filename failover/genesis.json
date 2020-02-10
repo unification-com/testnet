@@ -100,7 +100,7 @@
       "params": {
         "decision_time_limit": "84600",
         "denom": "nund",
-        "ent_signers": "",
+        "ent_signers": "und1dz0llvwrhg4ln6ngwl69v9nvvsvj6y52h96ndn",
         "min_Accepts": "1"
       },
       "purchase_orders": null,
@@ -125,7 +125,7 @@
               "amount": [],
               "gas": "200000"
             },
-            "memo": "2119e782427218773269b791e4c6506761a8c3c5@172.31.38.234:26656",
+            "memo": "0b3be258fc25aecbf5dbd07bfc024a40b3248cea@172.31.38.117:26656",
             "msg": [
               {
                 "type": "cosmos-sdk/MsgCreateValidator",
@@ -144,7 +144,7 @@
                     "website": ""
                   },
                   "min_self_delegation": "1",
-                  "pubkey": "undvalconspub1zcjduepqylnkx8r8dsa2cfn03f7zqfsf7rwn7hpzel5wfpyugzuxqhkycdxsye87mj",
+                  "pubkey": "undvalconspub1zcjduepq76vzgz296qt2w7l0ndx9qpdk4kx6sqrueqdqw6zxvnzewsdp384qgj2md4",
                   "validator_address": "undvaloper1hu50gv6a55tz592tk4y7hstmxfw9y9sg7qwpwa",
                   "value": {
                     "amount": "250000000000000",
@@ -159,7 +159,7 @@
                   "type": "tendermint/PubKeySecp256k1",
                   "value": "AuThV4hA5GTraUsls3UYn/P9orIJBCxzQvWabkLQGUQ6"
                 },
-                "signature": "akK8FwwyyHRZQ4Q7GIpnuIWovJnNCkK3JarGjcVCpoZEjrMH6EBB5SQiZCcBtpWCihFjaSIpE5wmW58O3Qecgg=="
+                "signature": "IEkcil3cLFOETXnx/2sAIZSmvtVbcUBl3/T3Sqm3WI8ZoHfGAEL6ddYwZ4KDJ3bFH2hx2OptN8QierQQY2io/A=="
               }
             ]
           }
@@ -238,5 +238,5 @@
       ]
     }
   },
-  "genesis_time": "2020-02-06T09:28:26.120424994Z"
+  "genesis_time": "2020-02-10T04:11:33.196753384Z"
 }
