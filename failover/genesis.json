@@ -37,6 +37,21 @@
           "type": "cosmos-sdk/Account",
           "value": {
             "account_number": 0,
+            "address": "und19enk9tmm98sa6yzk4pwarxamkkc0nth923e8nz",
+            "coins": [
+              {
+                "amount": "250000000000000",
+                "denom": "nund"
+              }
+            ],
+            "public_key": "",
+            "sequence": 0
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "account_number": 0,
             "address": "und1hu50gv6a55tz592tk4y7hstmxfw9y9sg4kz2wm",
             "coins": [
               {
@@ -53,21 +68,6 @@
           "value": {
             "account_number": 0,
             "address": "und1z575nxpemg4dtcrv0rd2u5pwctjxjzsy2hyzjn",
-            "coins": [
-              {
-                "amount": "250000000000000",
-                "denom": "nund"
-              }
-            ],
-            "public_key": "",
-            "sequence": 0
-          }
-        },
-        {
-          "type": "cosmos-sdk/Account",
-          "value": {
-            "account_number": 0,
-            "address": "und19enk9tmm98sa6yzk4pwarxamkkc0nth923e8nz",
             "coins": [
               {
                 "amount": "250000000000000",
@@ -155,7 +155,7 @@
               "amount": [],
               "gas": "200000"
             },
-            "memo": "ba82691fdeee842a279c493b0760cc7da35c7906@172.31.32.163:26656",
+            "memo": "d2a2100008ae448b4cb3cf4f3c215eba5eece5a3@172.31.42.179:26656",
             "msg": [
               {
                 "type": "cosmos-sdk/MsgCreateValidator",
@@ -174,7 +174,7 @@
                     "website": ""
                   },
                   "min_self_delegation": "1",
-                  "pubkey": "undvalconspub1zcjduepqy4e7x4mmghpkvrwvpe8yzwc6u7e3ws99xdycvd0l9c00zwhvw7uqev57ld",
+                  "pubkey": "undvalconspub1zcjduepqs2m2tdxhgx3yryxygjnr4a77rx0qdpkqztg7c6h49vffdyzfm9qquu3gq9",
                   "validator_address": "undvaloper1hu50gv6a55tz592tk4y7hstmxfw9y9sg7qwpwa",
                   "value": {
                     "amount": "250000000000000",
@@ -189,7 +189,7 @@
                   "type": "tendermint/PubKeySecp256k1",
                   "value": "AuThV4hA5GTraUsls3UYn/P9orIJBCxzQvWabkLQGUQ6"
                 },
-                "signature": "F6wUfkcWXRdsDnf5+KpsmY0bwgbsyfe8WQS4Nq0nfKgkcqG6VTwwnGS0MLzAM+PMwAMOWLX120W5vIIJuL0xhg=="
+                "signature": "518TPdd9S/MDz7XajmomOolLV69kNQrHbuiJzcnXq5R2F6+uFyD3tzdfr1H8AbQIFvQmKuRBQEWFKNuEhkSK0g=="
               }
             ]
           }
@@ -201,7 +201,7 @@
               "amount": [],
               "gas": "200000"
             },
-            "memo": "d48a6a59571194847b77ea564086be21fd9e8ec6@172.31.37.246:26656",
+            "memo": "61f4326e397e500fd3851bbba1d377e20b95e810@172.31.38.31:26656",
             "msg": [
               {
                 "type": "cosmos-sdk/MsgCreateValidator",
@@ -220,7 +220,7 @@
                     "website": ""
                   },
                   "min_self_delegation": "1",
-                  "pubkey": "undvalconspub1zcjduepqwxz65qhgm7nl0j43qedwmwl2dq7j8qxezetjufjajpsq0t6whflq690s43",
+                  "pubkey": "undvalconspub1zcjduepqf0pslqr4cv2pfwypf3mv7w2d5h989wszyfllpkvu8x4hw6hdp8wsf4kmu9",
                   "validator_address": "undvaloper19enk9tmm98sa6yzk4pwarxamkkc0nth9p84vny",
                   "value": {
                     "amount": "250000000000000",
@@ -235,7 +235,7 @@
                   "type": "tendermint/PubKeySecp256k1",
                   "value": "AlorpyrFW2byQFiCoV7sup48fPJCfDBv3w+iIpKL1q/n"
                 },
-                "signature": "Jn3ZnoIgas5w4fj3fhjfSzfrsuWTE/9lyxiJIbzoJkgoRNnmondv38bEXAjaZN/W98NzMHOFHNeKGzxJg8Cuig=="
+                "signature": "Qrv2zO86cMeBpKPAcD4Bbzr5bQ86tr30rGooK8fIFJ0wfGxQsOTVZo7rzS1q64uqfj2RoGSvOhb8HtynUrcWaA=="
               }
             ]
           }
@@ -247,7 +247,7 @@
               "amount": [],
               "gas": "200000"
             },
-            "memo": "cf9d98c7152f8a3508c37419a3460091758d9877@172.31.45.111:26656",
+            "memo": "b4f442fefd8e8ad610380428e337601b00408b94@172.31.44.109:26656",
             "msg": [
               {
                 "type": "cosmos-sdk/MsgCreateValidator",
@@ -266,7 +266,7 @@
                     "website": ""
                   },
                   "min_self_delegation": "1",
-                  "pubkey": "undvalconspub1zcjduepq3ct2eumvnaklvphgwsv6hnhr5amkty3zghmr0p7fngclxj7gjchqg8vnzz",
+                  "pubkey": "undvalconspub1zcjduepqn3twrwascqqec40g2q7w9hnxa3k3ursdss3uwc4d7qs3kgql6pnsyeezr8",
                   "validator_address": "undvaloper1z575nxpemg4dtcrv0rd2u5pwctjxjzsyppgfj4",
                   "value": {
                     "amount": "250000000000000",
@@ -281,7 +281,7 @@
                   "type": "tendermint/PubKeySecp256k1",
                   "value": "A/BC+mqu+l8UiXTZ9TjXs3+PLRagn70XaE9GzGbo+dxJ"
                 },
-                "signature": "HoxEfvcJSUoVKIkDukNXTmY7zPmpjY9k5QdaXsyaRRY3jDehKD9nQMpqobs2gv9RuEj0paEhaSto0fBmh6MfeA=="
+                "signature": "5wmfIpnCgWO677AQ5S4qctAGAQqrcf45iYwYXShr6rML/iLKbu1fnzSKonmaDDq2QbkzNqPnxfgM+O3rWxzcWw=="
               }
             ]
           }
@@ -360,5 +360,5 @@
       ]
     }
   },
-  "genesis_time": "2020-02-10T05:55:22.288962315Z"
+  "genesis_time": "2020-02-10T09:45:14.793576226Z"
 }
