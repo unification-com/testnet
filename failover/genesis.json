@@ -406,14 +406,14 @@
          },
          "registered_beacons":[
             {
-               "Beacon":{
+               "beacon":{
                   "beacon_id":"1",
                   "last_timestamp_id":"7",
                   "moniker":"Tokenswap",
                   "name":"Token Swap",
                   "owner":"und1mtxp3jh5ytygjfpfyx4ell495zc2m4k8ft8uly"
                },
-               "BeaconTimestamps":[
+               "timestamps":[
                   {
                      "beacon_id":"1",
                      "hash":"123",
@@ -1183,8 +1183,8 @@
          "params":{
             "blocks_per_year":"6311520",
             "goal_bonded":"0.100000000000000000",
-            "inflation_max":"0.200000000000000000",
-            "inflation_min":"0.010000000000000000",
+            "inflation_max":"0.130000000000000000",
+            "inflation_min":"0.130000000000000000",
             "inflation_rate_change":"0.130000000000000000",
             "mint_denom":"nund"
          }
