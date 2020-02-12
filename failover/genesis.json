@@ -1178,14 +1178,14 @@
       "mint":{
          "minter":{
             "annual_provisions":"22232356799271605.640401777957580784",
-            "inflation":"0.022185006613065104"
+            "inflation":"0.013000000000000000"
          },
          "params":{
             "blocks_per_year":"6311520",
             "goal_bonded":"0.100000000000000000",
-            "inflation_max":"0.130000000000000000",
-            "inflation_min":"0.130000000000000000",
-            "inflation_rate_change":"0.130000000000000000",
+            "inflation_max":"0.013000000000000000",
+            "inflation_min":"0.013000000000000000",
+            "inflation_rate_change":"0.010000000000000000",
             "mint_denom":"nund"
          }
       },
