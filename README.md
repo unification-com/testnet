@@ -1,5 +1,7 @@
 # testnet-genesis
 
+[![Join the chat at https://gitter.im/unification-com/testnet](https://badges.gitter.im/unification-com/testnet.svg)](https://gitter.im/unification-com/testnet?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 This repository contains the Genesis files used for our public testnet. The latest version will always be updated and available in [latest](https://github.com/unification-com/testnet/tree/master/latest).  
 
 Past genesis files will be placed in directories according to version numbers outside of `latest` for development and testing purposes.
