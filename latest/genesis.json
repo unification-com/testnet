@@ -1553,7 +1553,7 @@
          "starting_wrkchain_id":"1"
       }
    },
-   "chain_id":"UND-Mainchain-TestNet",
+   "chain_id":"UND-Mainchain-TestNet-v2",
    "consensus_params":{
       "block":{
          "max_bytes":"22020096",
@@ -1570,7 +1570,7 @@
          ]
       }
    },
-   "genesis_time":"2020-01-10T17:00:00Z",
+   "genesis_time":"2020-02-21T12:40:00Z",
    "validators":[
       {
          "address":"176E25F7B0C100B63C9B3A2D886D93EF11FF3AE8",
