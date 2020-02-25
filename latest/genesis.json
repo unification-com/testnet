@@ -6,7 +6,19 @@
             {
                "type":"cosmos-sdk/Account",
                "value":{
-                  "account_number":21,
+                  "account_number":8,
+                  "address":"und1gmdclar5cgw2uhlp9rcqpx690x8lystfk83vea",
+                  "coins":[
+
+                  ],
+                  "public_key":"",
+                  "sequence":0
+               }
+            },
+            {
+               "type":"cosmos-sdk/Account",
+               "value":{
+                  "account_number":24,
                   "address":"und1q9yse68q4gwjrakmvjm940wmsws486aul5a542",
                   "coins":[
                      {
@@ -21,11 +33,11 @@
             {
                "type":"cosmos-sdk/Account",
                "value":{
-                  "account_number":19,
+                  "account_number":22,
                   "address":"und1q43fg7x7yn6wv3zxwxjknj7xv7tfqd0ahnc0mv",
                   "coins":[
                      {
-                        "amount":"50092314621191",
+                        "amount":"50096314621191",
                         "denom":"nund"
                      }
                   ],
@@ -36,7 +48,7 @@
             {
                "type":"cosmos-sdk/Account",
                "value":{
-                  "account_number":7,
+                  "account_number":13,
                   "address":"und1z575nxpemg4dtcrv0rd2u5pwctjxjzsy2hyzjn",
                   "coins":[
 
@@ -48,7 +60,7 @@
             {
                "type":"cosmos-sdk/Account",
                "value":{
-                  "account_number":6,
+                  "account_number":12,
                   "address":"und19enk9tmm98sa6yzk4pwarxamkkc0nth923e8nz",
                   "coins":[
 
@@ -60,7 +72,7 @@
             {
                "type":"cosmos-sdk/Account",
                "value":{
-                  "account_number":14,
+                  "account_number":17,
                   "address":"und1x8pl6wzqf9atkm77ymc5vn5dnpl5xytmn200xy",
                   "coins":[
                      {
@@ -68,14 +80,14 @@
                         "denom":"nund"
                      }
                   ],
-                  "public_key":null,
+                  "public_key":"",
                   "sequence":0
                }
             },
             {
                "type":"cosmos-sdk/Account",
                "value":{
-                  "account_number":13,
+                  "account_number":16,
                   "address":"und1fv2rwmh84l3yca2yatgcqr8hggglr582fe9qz2",
                   "coins":[
                      {
@@ -90,51 +102,47 @@
             {
                "type":"cosmos-sdk/ModuleAccount",
                "value":{
-                  "BaseAccount":{
-                     "account_number":1,
-                     "address":"und1fl48vsnmsdzcv85q5d2q4z5ajdha8yu3j7wxl3",
-                     "coins":[
-                        {
-                           "amount":"3157187055090000",
-                           "denom":"nund"
-                        }
-                     ],
-                     "public_key":null,
-                     "sequence":0
-                  },
+                  "account_number":1,
+                  "address":"und1fl48vsnmsdzcv85q5d2q4z5ajdha8yu3j7wxl3",
+                  "coins":[
+                     {
+                        "amount":"3157187055090000",
+                        "denom":"nund"
+                     }
+                  ],
                   "name":"bonded_tokens_pool",
                   "permissions":[
                      "burner",
                      "staking"
-                  ]
+                  ],
+                  "public_key":"",
+                  "sequence":0
                }
             },
             {
                "type":"cosmos-sdk/ModuleAccount",
                "value":{
-                  "BaseAccount":{
-                     "account_number":2,
-                     "address":"und1tygms3xhhs3yv487phx3dw4a95jn7t7lx7jhf9",
-                     "coins":[
-                        {
-                           "amount":"9900500000",
-                           "denom":"nund"
-                        }
-                     ],
-                     "public_key":null,
-                     "sequence":0
-                  },
+                  "account_number":2,
+                  "address":"und1tygms3xhhs3yv487phx3dw4a95jn7t7lx7jhf9",
+                  "coins":[
+                     {
+                        "amount":"4900500000",
+                        "denom":"nund"
+                     }
+                  ],
                   "name":"not_bonded_tokens_pool",
                   "permissions":[
                      "burner",
                      "staking"
-                  ]
+                  ],
+                  "public_key":"",
+                  "sequence":0
                }
             },
             {
                "type":"cosmos-sdk/Account",
                "value":{
-                  "account_number":20,
+                  "account_number":23,
                   "address":"und1teljn5092d97pep5zuc9vqdrve5a9mrwzjnx75",
                   "coins":[
                      {
@@ -149,7 +157,7 @@
             {
                "type":"cosmos-sdk/Account",
                "value":{
-                  "account_number":4,
+                  "account_number":10,
                   "address":"und1dz0llvwrhg4ln6ngwl69v9nvvsvj6y52h96ndn",
                   "coins":[
                      {
@@ -164,7 +172,7 @@
             {
                "type":"cosmos-sdk/Account",
                "value":{
-                  "account_number":17,
+                  "account_number":20,
                   "address":"und100aex49fh53r7mpeghdq6e645epp6r9qyqk5jq",
                   "coins":[
                      {
@@ -172,33 +180,51 @@
                         "denom":"nund"
                      }
                   ],
-                  "public_key":null,
+                  "public_key":"",
                   "sequence":0
                }
             },
             {
                "type":"cosmos-sdk/ModuleAccount",
                "value":{
-                  "BaseAccount":{
-                     "account_number":0,
-                     "address":"und1jv65s3grqf6v6jl3dp4t6c9t9rk99cd8q6r40e",
-                     "coins":[
-                        {
-                           "amount":"922054523219907",
-                           "denom":"nund"
-                        }
-                     ],
-                     "public_key":null,
-                     "sequence":0
-                  },
+                  "account_number":0,
+                  "address":"und1jv65s3grqf6v6jl3dp4t6c9t9rk99cd8q6r40e",
+                  "coins":[
+                     {
+                        "amount":"1063628191503522",
+                        "denom":"nund"
+                     }
+                  ],
                   "name":"distribution",
-                  "permissions":null
+                  "permissions":null,
+                  "public_key":"",
+                  "sequence":0
+               }
+            },
+            {
+               "type":"cosmos-sdk/ModuleAccount",
+               "value":{
+                  "account_number":27,
+                  "address":"und1nwt6chnk0efe8ngwa5y63egmdumht6arlvluh3",
+                  "coins":[
+                     {
+                        "amount":"1555000000000",
+                        "denom":"nund"
+                     }
+                  ],
+                  "name":"enterprise",
+                  "permissions":[
+                     "minter",
+                     "staking"
+                  ],
+                  "public_key":"",
+                  "sequence":0
                }
             },
             {
                "type":"cosmos-sdk/Account",
                "value":{
-                  "account_number":11,
+                  "account_number":14,
                   "address":"und1nkh2dteta8drxntqp646sr6vz74lt9w9yc60pd",
                   "coins":[
                      {
@@ -213,7 +239,7 @@
             {
                "type":"cosmos-sdk/Account",
                "value":{
-                  "account_number":15,
+                  "account_number":18,
                   "address":"und15dv9r5uf9adjqqtr4xuefrd7kxu9v269m8fpav",
                   "coins":[
                      {
@@ -228,11 +254,11 @@
             {
                "type":"cosmos-sdk/Account",
                "value":{
-                  "account_number":12,
+                  "account_number":15,
                   "address":"und15s4ec3s97tu4pstk8tq86l5ues4dxnmadqmrjl",
                   "coins":[
                      {
-                        "amount":"1371237826952",
+                        "amount":"1382237826952",
                         "denom":"nund"
                      }
                   ],
@@ -243,7 +269,7 @@
             {
                "type":"cosmos-sdk/Account",
                "value":{
-                  "account_number":5,
+                  "account_number":11,
                   "address":"und1hu50gv6a55tz592tk4y7hstmxfw9y9sg4kz2wm",
                   "coins":[
                      {
@@ -258,7 +284,7 @@
             {
                "type":"cosmos-sdk/Account",
                "value":{
-                  "account_number":18,
+                  "account_number":21,
                   "address":"und1mtxp3jh5ytygjfpfyx4ell495zc2m4k8ft8uly",
                   "coins":[
                      {
@@ -273,25 +299,23 @@
             {
                "type":"cosmos-sdk/ModuleAccount",
                "value":{
-                  "BaseAccount":{
-                     "account_number":9,
-                     "address":"und1m3h30wlvsf8llruxtpukdvsy0km2kum805q3px",
-                     "coins":[
+                  "account_number":28,
+                  "address":"und1m3h30wlvsf8llruxtpukdvsy0km2kum805q3px",
+                  "coins":[
 
-                     ],
-                     "public_key":null,
-                     "sequence":0
-                  },
+                  ],
                   "name":"mint",
                   "permissions":[
                      "minter"
-                  ]
+                  ],
+                  "public_key":"",
+                  "sequence":0
                }
             },
             {
                "type":"cosmos-sdk/Account",
                "value":{
-                  "account_number":22,
+                  "account_number":25,
                   "address":"und1axty08rr3xunwpspf00grz2fkxlppuqxjy2mqz",
                   "coins":[
                      {
@@ -306,7 +330,7 @@
             {
                "type":"cosmos-sdk/Account",
                "value":{
-                  "account_number":23,
+                  "account_number":26,
                   "address":"und1a6vp6umsk6e34pf7lx2cx3k6nlzy7x9wx4rhs6",
                   "coins":[
                      {
@@ -321,23 +345,21 @@
             {
                "type":"cosmos-sdk/ModuleAccount",
                "value":{
-                  "BaseAccount":{
-                     "account_number":10,
-                     "address":"und17xpfvakm2amg962yls6f84z3kell8c5lhuyfdm",
-                     "coins":[
+                  "account_number":29,
+                  "address":"und17xpfvakm2amg962yls6f84z3kell8c5lhuyfdm",
+                  "coins":[
 
-                     ],
-                     "public_key":null,
-                     "sequence":0
-                  },
+                  ],
                   "name":"fee_collector",
-                  "permissions":null
+                  "permissions":null,
+                  "public_key":"",
+                  "sequence":0
                }
             },
             {
                "type":"cosmos-sdk/Account",
                "value":{
-                  "account_number":16,
+                  "account_number":19,
                   "address":"und17fr59cyxydm0fnyvgaqsghkwsuup8wu33pjx96",
                   "coins":[
                      {
@@ -352,40 +374,18 @@
             {
                "type":"cosmos-sdk/Account",
                "value":{
-                  "account_number":3,
+                  "account_number":9,
                   "address":"und17jv7rerc2e3undqumpf32a3xs9jc0kjk4z2car",
                   "coins":[
                      {
-                        "amount":"997536731999939312",
+                        "amount":"997536721999937357",
                         "denom":"nund"
                      }
                   ],
                   "public_key":"undpub1addwnpepq023ylywllkht8t0wnc40eqct0r4ylqcq50ylz83e5fv9txpxaax2tgtx6v",
-                  "sequence":36
+                  "sequence":37
                }
-            },
-        {
-          "type": "cosmos-sdk/ModuleAccount",
-          "value": {
-            "BaseAccount": {
-              "account_number": 8,
-              "address": "und1nwt6chnk0efe8ngwa5y63egmdumht6arlvluh3",
-              "coins": [
-                {
-                  "amount": "1555000000000",
-                  "denom": "nund"
-                }
-              ],
-              "public_key": null,
-              "sequence": 0
-            },
-            "name": "enterprise",
-            "permissions": [
-              "minter",
-              "staking"
-            ]
-          }
-        }
+            }
          ],
          "params":{
             "max_memo_characters":"256",
@@ -479,7 +479,7 @@
             {
                "delegator_address":"und1q43fg7x7yn6wv3zxwxjknj7xv7tfqd0ahnc0mv",
                "starting_info":{
-                  "height":"0",
+                  "creation_height":"0",
                   "previous_period":"6",
                   "stake":"105000000000000.000000000000000000"
                },
@@ -488,7 +488,7 @@
             {
                "delegator_address":"und1z575nxpemg4dtcrv0rd2u5pwctjxjzsy2hyzjn",
                "starting_info":{
-                  "height":"0",
+                  "creation_height":"0",
                   "previous_period":"5",
                   "stake":"250000000000000.000000000000000000"
                },
@@ -497,7 +497,7 @@
             {
                "delegator_address":"und15s4ec3s97tu4pstk8tq86l5ues4dxnmadqmrjl",
                "starting_info":{
-                  "height":"0",
+                  "creation_height":"0",
                   "previous_period":"13",
                   "stake":"100000000000.000000000000000000"
                },
@@ -506,7 +506,7 @@
             {
                "delegator_address":"und1axty08rr3xunwpspf00grz2fkxlppuqxjy2mqz",
                "starting_info":{
-                  "height":"0",
+                  "creation_height":"0",
                   "previous_period":"8",
                   "stake":"3000000000.000000000000000000"
                },
@@ -515,7 +515,7 @@
             {
                "delegator_address":"und17fr59cyxydm0fnyvgaqsghkwsuup8wu33pjx96",
                "starting_info":{
-                  "height":"0",
+                  "creation_height":"0",
                   "previous_period":"3",
                   "stake":"1200000000.000000000000000000"
                },
@@ -524,7 +524,7 @@
             {
                "delegator_address":"und1q9yse68q4gwjrakmvjm940wmsws486aul5a542",
                "starting_info":{
-                  "height":"0",
+                  "creation_height":"0",
                   "previous_period":"13",
                   "stake":"7000000000.000000000000000000"
                },
@@ -533,7 +533,7 @@
             {
                "delegator_address":"und1q43fg7x7yn6wv3zxwxjknj7xv7tfqd0ahnc0mv",
                "starting_info":{
-                  "height":"0",
+                  "creation_height":"0",
                   "previous_period":"11",
                   "stake":"50001000000000.000000000000000000"
                },
@@ -542,7 +542,7 @@
             {
                "delegator_address":"und19enk9tmm98sa6yzk4pwarxamkkc0nth923e8nz",
                "starting_info":{
-                  "height":"0",
+                  "creation_height":"0",
                   "previous_period":"1",
                   "stake":"250000000000000.000000000000000000"
                },
@@ -551,7 +551,7 @@
             {
                "delegator_address":"und1fv2rwmh84l3yca2yatgcqr8hggglr582fe9qz2",
                "starting_info":{
-                  "height":"0",
+                  "creation_height":"0",
                   "previous_period":"3",
                   "stake":"15000000000.000000000000000000"
                },
@@ -560,7 +560,7 @@
             {
                "delegator_address":"und1a6vp6umsk6e34pf7lx2cx3k6nlzy7x9wx4rhs6",
                "starting_info":{
-                  "height":"0",
+                  "creation_height":"0",
                   "previous_period":"14",
                   "stake":"10000000000.000000000000000000"
                },
@@ -569,7 +569,7 @@
             {
                "delegator_address":"und17fr59cyxydm0fnyvgaqsghkwsuup8wu33pjx96",
                "starting_info":{
-                  "height":"0",
+                  "creation_height":"0",
                   "previous_period":"6",
                   "stake":"1523000000.000000000000000000"
                },
@@ -578,7 +578,7 @@
             {
                "delegator_address":"und1teljn5092d97pep5zuc9vqdrve5a9mrwzjnx75",
                "starting_info":{
-                  "height":"0",
+                  "creation_height":"0",
                   "previous_period":"1",
                   "stake":"4900500000.000000000000000000"
                },
@@ -587,7 +587,7 @@
             {
                "delegator_address":"und1q9yse68q4gwjrakmvjm940wmsws486aul5a542",
                "starting_info":{
-                  "height":"0",
+                  "creation_height":"0",
                   "previous_period":"20",
                   "stake":"3000000000.000000000000000000"
                },
@@ -596,7 +596,7 @@
             {
                "delegator_address":"und1q43fg7x7yn6wv3zxwxjknj7xv7tfqd0ahnc0mv",
                "starting_info":{
-                  "height":"0",
+                  "creation_height":"0",
                   "previous_period":"17",
                   "stake":"1332100000.000000000000000000"
                },
@@ -605,7 +605,7 @@
             {
                "delegator_address":"und1nkh2dteta8drxntqp646sr6vz74lt9w9yc60pd",
                "starting_info":{
-                  "height":"0",
+                  "creation_height":"0",
                   "previous_period":"13",
                   "stake":"2249998999990000.000000000000000000"
                },
@@ -614,7 +614,7 @@
             {
                "delegator_address":"und15dv9r5uf9adjqqtr4xuefrd7kxu9v269m8fpav",
                "starting_info":{
-                  "height":"0",
+                  "creation_height":"0",
                   "previous_period":"6",
                   "stake":"10000000000.000000000000000000"
                },
@@ -623,7 +623,7 @@
             {
                "delegator_address":"und15s4ec3s97tu4pstk8tq86l5ues4dxnmadqmrjl",
                "starting_info":{
-                  "height":"0",
+                  "creation_height":"0",
                   "previous_period":"33",
                   "stake":"2031000000000.000000000000000000"
                },
@@ -632,7 +632,7 @@
             {
                "delegator_address":"und1hu50gv6a55tz592tk4y7hstmxfw9y9sg4kz2wm",
                "starting_info":{
-                  "height":"0",
+                  "creation_height":"0",
                   "previous_period":"16",
                   "stake":"250000000000000.000000000000000000"
                },
@@ -641,18 +641,20 @@
             {
                "delegator_address":"und17fr59cyxydm0fnyvgaqsghkwsuup8wu33pjx96",
                "starting_info":{
-                  "height":"0",
+                  "creation_height":"0",
                   "previous_period":"26",
                   "stake":"4000000000.000000000000000000"
                },
                "validator_address":"undvaloper1hu50gv6a55tz592tk4y7hstmxfw9y9sg7qwpwa"
             }
          ],
-         "delegator_withdraw_infos":null,
+         "delegator_withdraw_infos":[
+
+         ],
          "fee_pool":{
             "community_pool":[
                {
-                  "amount":"25686887481479.758189362190021441",
+                  "amount":"25686887481479.758323857174981731",
                   "denom":"nund"
                }
             ]
@@ -661,7 +663,7 @@
             {
                "outstanding_rewards":[
                   {
-                     "amount":"130558273963407.314645867408784239",
+                     "amount":"146481767787082.475390249673941844",
                      "denom":"nund"
                   }
                ],
@@ -670,7 +672,7 @@
             {
                "outstanding_rewards":[
                   {
-                     "amount":"114878699757268.151520805222625764",
+                     "amount":"128332699562214.717336856296741338",
                      "denom":"nund"
                   }
                ],
@@ -688,7 +690,7 @@
             {
                "outstanding_rewards":[
                   {
-                     "amount":"650930659454435.126082693572614267",
+                     "amount":"763126834109428.399387765248380798",
                      "denom":"nund"
                   }
                ],
@@ -698,7 +700,7 @@
          "params":{
             "base_proposer_reward":"0.010000000000000000",
             "bonus_proposer_reward":"0.040000000000000000",
-            "community_tax":"0",
+            "community_tax":"0.000000000000000000",
             "withdraw_addr_enabled":true
          },
          "previous_proposer":"undvalcons1wuf5pvrwpld77skgjvt20j2xr367ycm0f55avf",
@@ -706,7 +708,7 @@
             {
                "accumulated":[
                   {
-                     "amount":"52382304859193.704448341356855735",
+                     "amount":"53974654241561.220522779583371477",
                      "denom":"nund"
                   }
                ],
@@ -715,7 +717,7 @@
             {
                "accumulated":[
                   {
-                     "amount":"46979934827086.828296493087750319",
+                     "amount":"48325334807581.484878098195161872",
                      "denom":"nund"
                   }
                ],
@@ -733,7 +735,7 @@
             {
                "accumulated":[
                   {
-                     "amount":"65110311592863.049720697774837069",
+                     "amount":"76329929058362.377051204942413722",
                      "denom":"nund"
                   }
                ],
@@ -746,7 +748,7 @@
                   "period":"14",
                   "rewards":[
                      {
-                        "amount":"13891333886597.799105395028708559",
+                        "amount":"28222478327905.443775339067350422",
                         "denom":"nund"
                      }
                   ]
@@ -758,7 +760,7 @@
                   "period":"15",
                   "rewards":[
                      {
-                        "amount":"40443291430964.758654072812385646",
+                        "amount":"52551891255416.667888518779089667",
                         "denom":"nund"
                      }
                   ]
@@ -782,7 +784,7 @@
                   "period":"34",
                   "rewards":[
                      {
-                        "amount":"97885358362949.013794843664013129",
+                        "amount":"198861915552442.959769408172203007",
                         "denom":"nund"
                      }
                   ]
@@ -1052,132 +1054,153 @@
          ]
       },
       "enterprise":{
-      "locked_und": [
-        {
-          "amount": {
-            "amount": "555000000000",
-            "denom": "nund"
-          },
-          "owner": "und1q43fg7x7yn6wv3zxwxjknj7xv7tfqd0ahnc0mv"
-        },
-        {
-          "amount": {
-            "amount": "1000000000000",
-            "denom": "nund"
-          },
-          "owner": "und15s4ec3s97tu4pstk8tq86l5ues4dxnmadqmrjl"
-        }
-      ],
-      "params": {
-        "decision_time_limit": "84600",
-        "denom": "nund",
-        "ent_signers": "und1dz0llvwrhg4ln6ngwl69v9nvvsvj6y52h96ndn",
-        "min_Accepts": "1"
-      },
-      "purchase_orders": [
-        {
-          "amount": {
-            "amount": "10000000000000",
-            "denom": "nund"
-          },
-          "completion_time": "1579573891",
-          "decisions": null,
-          "id": "1",
-          "purchaser": "und1mtxp3jh5ytygjfpfyx4ell495zc2m4k8ft8uly",
-          "raise_time": "1579489288",
-          "status": "reject"
-        },
-        {
-          "amount": {
-            "amount": "100000000000",
-            "denom": "nund"
-          },
-          "completion_time": "1579710286",
-          "decisions": null,
-          "id": "2",
-          "purchaser": "und15s4ec3s97tu4pstk8tq86l5ues4dxnmadqmrjl",
-          "raise_time": "1579625686",
-          "status": "reject"
-        },
-        {
-          "amount": {
-            "amount": "10000000000000",
-            "denom": "nund"
-          },
-          "completion_time": "1579710347",
-          "decisions": null,
-          "id": "3",
-          "purchaser": "und1q43fg7x7yn6wv3zxwxjknj7xv7tfqd0ahnc0mv",
-          "raise_time": "1579625747",
-          "status": "reject"
-        },
-        {
-          "amount": {
-            "amount": "5555000000000",
-            "denom": "nund"
-          },
-          "completion_time": "1579710362",
-          "decisions": null,
-          "id": "4",
-          "purchaser": "und1q43fg7x7yn6wv3zxwxjknj7xv7tfqd0ahnc0mv",
-          "raise_time": "1579625762",
-          "status": "reject"
-        },
-        {
-          "amount": {
-            "amount": "555000000000",
-            "denom": "nund"
-          },
-          "completion_time": "1579625918",
-          "decisions": [
+         "locked_und":[
             {
-              "decision": "accept",
-              "decision_time": "1579625913",
-              "signer": "und1dz0llvwrhg4ln6ngwl69v9nvvsvj6y52h96ndn"
-            }
-          ],
-          "id": "5",
-          "purchaser": "und1q43fg7x7yn6wv3zxwxjknj7xv7tfqd0ahnc0mv",
-          "raise_time": "1579625802",
-          "status": "complete"
-        },
-        {
-          "amount": {
-            "amount": "1000000000000",
-            "denom": "nund"
-          },
-          "completion_time": "1580396050",
-          "decisions": [
+               "amount":{
+                  "amount":"555000000000",
+                  "denom":"nund"
+               },
+               "owner":"und1q43fg7x7yn6wv3zxwxjknj7xv7tfqd0ahnc0mv"
+            },
             {
-              "decision": "accept",
-              "decision_time": "1580396045",
-              "signer": "und1dz0llvwrhg4ln6ngwl69v9nvvsvj6y52h96ndn"
+               "amount":{
+                  "amount":"1000000000000",
+                  "denom":"nund"
+               },
+               "owner":"und15s4ec3s97tu4pstk8tq86l5ues4dxnmadqmrjl"
             }
-          ],
-          "id": "6",
-          "purchaser": "und15s4ec3s97tu4pstk8tq86l5ues4dxnmadqmrjl",
-          "raise_time": "1580395990",
-          "status": "complete"
-        }
-      ],
-      "starting_purchase_order_id": "7",
-      "total_locked": {
-        "amount": "1555000000000",
-        "denom": "nund"
-      }
+         ],
+         "params":{
+            "decision_time_limit":"84600",
+            "denom":"nund",
+            "ent_signers":"und1dz0llvwrhg4ln6ngwl69v9nvvsvj6y52h96ndn",
+            "min_Accepts":"1"
+         },
+         "purchase_orders":[
+            {
+               "amount":{
+                  "amount":"10000000000000",
+                  "denom":"nund"
+               },
+               "completion_time":"1579573891",
+               "decisions":null,
+               "id":"1",
+               "purchaser":"und1mtxp3jh5ytygjfpfyx4ell495zc2m4k8ft8uly",
+               "raise_time":"1579489288",
+               "status":"reject"
+            },
+            {
+               "amount":{
+                  "amount":"100000000000",
+                  "denom":"nund"
+               },
+               "completion_time":"1579710286",
+               "decisions":null,
+               "id":"2",
+               "purchaser":"und15s4ec3s97tu4pstk8tq86l5ues4dxnmadqmrjl",
+               "raise_time":"1579625686",
+               "status":"reject"
+            },
+            {
+               "amount":{
+                  "amount":"10000000000000",
+                  "denom":"nund"
+               },
+               "completion_time":"1579710347",
+               "decisions":null,
+               "id":"3",
+               "purchaser":"und1q43fg7x7yn6wv3zxwxjknj7xv7tfqd0ahnc0mv",
+               "raise_time":"1579625747",
+               "status":"reject"
+            },
+            {
+               "amount":{
+                  "amount":"5555000000000",
+                  "denom":"nund"
+               },
+               "completion_time":"1579710362",
+               "decisions":null,
+               "id":"4",
+               "purchaser":"und1q43fg7x7yn6wv3zxwxjknj7xv7tfqd0ahnc0mv",
+               "raise_time":"1579625762",
+               "status":"reject"
+            },
+            {
+               "amount":{
+                  "amount":"555000000000",
+                  "denom":"nund"
+               },
+               "completion_time":"1579625918",
+               "decisions":[
+                  {
+                     "decision":"accept",
+                     "decision_time":"1579625913",
+                     "signer":"und1dz0llvwrhg4ln6ngwl69v9nvvsvj6y52h96ndn"
+                  }
+               ],
+               "id":"5",
+               "purchaser":"und1q43fg7x7yn6wv3zxwxjknj7xv7tfqd0ahnc0mv",
+               "raise_time":"1579625802",
+               "status":"complete"
+            },
+            {
+               "amount":{
+                  "amount":"1000000000000",
+                  "denom":"nund"
+               },
+               "completion_time":"1580396050",
+               "decisions":[
+                  {
+                     "decision":"accept",
+                     "decision_time":"1580396045",
+                     "signer":"und1dz0llvwrhg4ln6ngwl69v9nvvsvj6y52h96ndn"
+                  }
+               ],
+               "id":"6",
+               "purchaser":"und15s4ec3s97tu4pstk8tq86l5ues4dxnmadqmrjl",
+               "raise_time":"1580395990",
+               "status":"complete"
+            }
+         ],
+         "starting_purchase_order_id":"7",
+         "total_locked":{
+            "amount":"1555000000000",
+            "denom":"nund"
+         }
       },
       "evidence":{
-         "evidence":[
-
-         ],
+         "evidence":null,
          "params":{
             "max_evidence_age":"120000000000"
          }
       },
-      "genutil":null,
+      "genutil":{},
+      "gov": {
+         "starting_proposal_id": "1",
+         "deposits": null,
+         "votes": null,
+         "proposals": null,
+         "deposit_params": {
+            "min_deposit": [
+               {
+                  "denom": "nund",
+                  "amount": "1000000000000"
+               }
+            ],
+            "max_deposit_period": "172800000000000"
+         },
+         "voting_params": {
+            "voting_period": "172800000000000"
+         },
+         "tally_params": {
+            "quorum": "0.334000000000000000",
+            "threshold": "0.500000000000000000",
+            "veto": "0.334000000000000000"
+         }
+      },
       "mint":{
          "minter":{
-            "annual_provisions":"22232356799271605.640401777957580784",
+            "annual_provisions":"13029586802412339.250000000000000000",
             "inflation":"0.013000000000000000"
          },
          "params":{
@@ -1213,7 +1236,6 @@
          },
          "params":{
             "downtime_jail_duration":"600000000000",
-            "max_evidence_age":"120000000000",
             "min_signed_per_window":"0.500000000000000000",
             "signed_blocks_window":"100",
             "slash_fraction_double_sign":"0.050000000000000000",
@@ -1230,7 +1252,7 @@
             },
             "undvalcons1hnhzr5xfhd7uv32fvens59qda8t86jywd88prz":{
                "address":"undvalcons1hnhzr5xfhd7uv32fvens59qda8t86jywd88prz",
-               "index_offset":"459999",
+               "index_offset":"528581",
                "jailed_until":"1970-01-01T00:00:00Z",
                "missed_blocks_counter":"0",
                "start_height":"0",
@@ -1238,7 +1260,7 @@
             },
             "undvalcons1wuf5pvrwpld77skgjvt20j2xr367ycm0f55avf":{
                "address":"undvalcons1wuf5pvrwpld77skgjvt20j2xr367ycm0f55avf",
-               "index_offset":"459999",
+               "index_offset":"528581",
                "jailed_until":"1970-01-01T00:00:00Z",
                "missed_blocks_counter":"0",
                "start_height":"0",
@@ -1246,7 +1268,7 @@
             },
             "undvalcons1zahztaascyqtv0ym8gkcsmvnaugl7whg8slsux":{
                "address":"undvalcons1zahztaascyqtv0ym8gkcsmvnaugl7whg8slsux",
-               "index_offset":"459999",
+               "index_offset":"528581",
                "jailed_until":"1970-01-01T00:00:00Z",
                "missed_blocks_counter":"0",
                "start_height":"0",
@@ -1370,64 +1392,13 @@
          ],
          "params":{
             "bond_denom":"nund",
+            "historical_entries":0,
             "max_entries":7,
             "max_validators":96,
             "unbonding_time":"1814400000000000"
          },
-         "redelegations":[
-            {
-               "delegator_address":"und1q43fg7x7yn6wv3zxwxjknj7xv7tfqd0ahnc0mv",
-               "entries":[
-                  {
-                     "completion_time":"2020-02-15T16:08:22.916138576Z",
-                     "creation_height":"197049",
-                     "initial_balance":"1000000000",
-                     "shares_dst":"1000000000.000000000000000000"
-                  }
-               ],
-               "validator_dst_address":"undvaloper19enk9tmm98sa6yzk4pwarxamkkc0nth9p84vny",
-               "validator_src_address":"undvaloper1hu50gv6a55tz592tk4y7hstmxfw9y9sg7qwpwa"
-            },
-            {
-               "delegator_address":"und1axty08rr3xunwpspf00grz2fkxlppuqxjy2mqz",
-               "entries":[
-                  {
-                     "completion_time":"2020-02-20T10:45:16.361109052Z",
-                     "creation_height":"278721",
-                     "initial_balance":"3000000000",
-                     "shares_dst":"3000000000.000000000000000000"
-                  }
-               ],
-               "validator_dst_address":"undvaloper1z575nxpemg4dtcrv0rd2u5pwctjxjzsyppgfj4",
-               "validator_src_address":"undvaloper1hu50gv6a55tz592tk4y7hstmxfw9y9sg7qwpwa"
-            }
-         ],
-         "unbonding_delegations":[
-            {
-               "delegator_address":"und1q43fg7x7yn6wv3zxwxjknj7xv7tfqd0ahnc0mv",
-               "entries":[
-                  {
-                     "balance":"4000000000",
-                     "completion_time":"2020-02-14T06:44:18.525551496Z",
-                     "creation_height":"173243",
-                     "initial_balance":"4000000000"
-                  }
-               ],
-               "validator_address":"undvaloper19enk9tmm98sa6yzk4pwarxamkkc0nth9p84vny"
-            },
-            {
-               "delegator_address":"und15s4ec3s97tu4pstk8tq86l5ues4dxnmadqmrjl",
-               "entries":[
-                  {
-                     "balance":"1000000000",
-                     "completion_time":"2020-02-19T15:33:39.099917206Z",
-                     "creation_height":"265049",
-                     "initial_balance":"1000000000"
-                  }
-               ],
-               "validator_address":"undvaloper1hu50gv6a55tz592tk4y7hstmxfw9y9sg7qwpwa"
-            }
-         ],
+         "redelegations":null,
+         "unbonding_delegations":null,
          "validators":[
             {
                "commission":{
@@ -1502,7 +1473,7 @@
                "jailed":true,
                "min_self_delegation":"1",
                "operator_address":"undvaloper1teljn5092d97pep5zuc9vqdrve5a9mrwfyld7j",
-               "status":1,
+               "status":0,
                "tokens":"4900500000",
                "unbonding_height":"227728",
                "unbonding_time":"2020-02-17T11:11:05.851182057Z"
@@ -1538,7 +1509,7 @@
       "supply":{
          "supply":[
             {
-               "amount":"1002135891274004043",
+               "amount":"1002277464942285703",
                "denom":"nund"
             }
          ]
@@ -1553,7 +1524,7 @@
          "starting_wrkchain_id":"1"
       }
    },
-   "chain_id":"UND-Mainchain-TestNet-v2",
+   "chain_id":"UND-Mainchain-TestNet-v3",
    "consensus_params":{
       "block":{
          "max_bytes":"22020096",
@@ -1570,10 +1541,10 @@
          ]
       }
    },
-   "genesis_time":"2020-02-21T12:40:00Z",
+   "genesis_time":"2020-02-25T14:03:00Z",
    "validators":[
       {
-         "address":"176E25F7B0C100B63C9B3A2D886D93EF11FF3AE8",
+         "address":"",
          "name":"集体计算机",
          "power":"355104200",
          "pub_key":{
@@ -1582,7 +1553,7 @@
          }
       },
       {
-         "address":"BCEE21D0C9BB7DC6454966670A140DE9D67D488E",
+         "address":"",
          "name":"UNDEurope",
          "power":"300034523",
          "pub_key":{
@@ -1591,7 +1562,7 @@
          }
       },
       {
-         "address":"771340B06E0FDBEF42C89316A7C9461C75E2636F",
+         "address":"",
          "name":"Galaxy STAR",
          "power":"2502048332",
          "pub_key":{
