@@ -28,7 +28,15 @@ und version --long
 
 This should output `v1.4.1`
 
-### 4. reset the node data
+
+### 4. Download the v4 genesis
+
+```bash
+curl https://raw.githubusercontent.com/unification-com/testnet/master/latest/genesis.json > $HOME/.und_mainchain/config/genesis.json
+```
+
+
+### 5. reset the node data
 
 **Note**: it's good practice to backup the `$HOME/.und_mainchain` directory prior to this
 
@@ -36,12 +44,6 @@ This will remove the old `v3` chain data, and retain your validation node keys a
 
 ```bash
 und unsafe-reset-all
-```
-
-### 5. Download the v4 genesis
-
-```bash
-curl https://raw.githubusercontent.com/unification-com/testnet/master/latest/genesis.json > $HOME/.und_mainchain/config/genesis.json
 ```
 
 ### 6. Verify v4 has downloaded
