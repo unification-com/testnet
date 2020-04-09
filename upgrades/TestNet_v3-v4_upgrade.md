@@ -1,9 +1,9 @@
 # TestNet v3 to v4 Upgrade
 
-On 09/04/2020, TestNet was be upgraded from v3 to v4, with v4 using the latest `und v1.4.1` updates. The following instructions can be used to upgrade your node to the latest
-`und v1.4.0` software and v4 genesis.
+On 09/04/2020, TestNet was upgraded from **v3** to **v4**, with v4 using the latest `und` **v1.4.1** updates. The following instructions can be used to upgrade your node to the latest
+`und` v1.4.1 software and v4 genesis.
 
-The v3 database was be exported at height `715000` and used as the `UND-Mainchain-TestNet-v4` genesis.
+The v3 database was exported at height `715000` and used as the `UND-Mainchain-TestNet-v4` genesis.
 
 ### 1. Halt the node
 
@@ -77,4 +77,7 @@ and:
 ```bash
 $ sudo journalctl -u und --follow
 ```
+
+Finally, unjail your TestNet validator if necessary
+
 
