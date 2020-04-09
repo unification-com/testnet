@@ -8,6 +8,7 @@ Past genesis files will be placed in directories according to version numbers ou
 
 ## TestNet History
 
+- [v4.0](https://github.com/unification-com/testnet/tree/master/v4.0) - TestNet v4 - Enterprise Whitelist, 09/04/2020  
 - [v3.0](https://github.com/unification-com/testnet/tree/master/v3.0) - TestNet v3 - Governance, 21/02/2020  
 - [v2.0](https://github.com/unification-com/testnet/tree/master/v2.0) - TestNet v2, 21/02/2020  
 - [v1.1](https://github.com/unification-com/testnet/tree/master/v1.1) - TestNet export test, 20/02/2020  
