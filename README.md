@@ -6,6 +6,10 @@ This repository contains the Genesis files used for our public testnet. The late
 
 Past genesis files will be placed in directories according to version numbers outside of `latest` for development and testing purposes.
 
+## TestNet Network Upgrades
+
+On 09/04/2020, TestNet will be upgraded from v3 to v4. Please see the [v3 - v4 upgrade instructions](upgrades/TestNet_v3-v4_upgrade.md)
+
 ## TestNet History
 
 - [v4.0](https://github.com/unification-com/testnet/tree/master/v4.0) - TestNet v4 - Enterprise Whitelist, 09/04/2020  
