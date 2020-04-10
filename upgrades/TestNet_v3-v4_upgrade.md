@@ -1,9 +1,11 @@
 # TestNet v3 to v4 Upgrade
 
 On 09/04/2020, TestNet was upgraded from **v3** to **v4**, with v4 using the latest `und` **v1.4.1** updates. The following instructions can be used to upgrade your node to the latest
-`und` v1.4.1 software and v4 genesis.
+`und` v1.4.1+ software and v4 genesis.
 
 The v3 database was exported at height `715000` and used as the `UND-Mainchain-TestNet-v4` genesis.
+
+The _minumum_ required `und` version for `UND-Mainchain-TestNet-v4` is **v1.4.1**
 
 ### 1. Halt the node
 
@@ -26,15 +28,13 @@ curl -sfL https://git.io/JvHZO | sh
 und version --long
 ```
 
-This should output `v1.4.1`
-
+This should output _at least_ `v1.4.1`
 
 ### 4. Download the v4 genesis
 
 ```bash
 curl https://raw.githubusercontent.com/unification-com/testnet/master/latest/genesis.json > $HOME/.und_mainchain/config/genesis.json
 ```
-
 
 ### 5. reset the node data
 
@@ -58,6 +58,21 @@ Should result in:
 UND-Mainchain-TestNet-v4
 ```
 
+**Note**: if you recieve the error `-bash: jq: command not found`, you will need to install `jq`:
+
+For example, on CentOS based systems:
+
+```bash
+$ sudo yum install epel-release -y
+$ sudo yum install jq -y
+```
+
+On Debian:
+
+```bash
+sudo apt install jq
+```
+
 ### 7.  restart the node
 
 Restart your node an join the network:
@@ -79,5 +94,4 @@ $ sudo journalctl -u und --follow
 ```
 
 Finally, unjail your TestNet validator if necessary
-
 

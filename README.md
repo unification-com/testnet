@@ -8,7 +8,9 @@ Past genesis files will be placed in directories according to version numbers ou
 
 ## TestNet Network Upgrades
 
-On 09/04/2020, TestNet will be upgraded from v3 to v4. Please see the [v3 - v4 upgrade instructions](upgrades/TestNet_v3-v4_upgrade.md)
+On **09/04/2020**, TestNet was upgraded from v3 to v4.
+
+If your TestNet node is still running v3, please see the [v3 - v4 upgrade instructions](upgrades/TestNet_v3-v4_upgrade.md)
 
 ## TestNet History
 
