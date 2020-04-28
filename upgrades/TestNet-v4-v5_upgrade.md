@@ -82,7 +82,7 @@ This will remove the old `v4` chain data, and retain your validation node keys a
 und unsafe-reset-all
 ```
 
-### 6. Verify v4 has downloaded
+### 6. Verify v5 has downloaded
 
 ```bash
 jq --raw-output '.chain_id' $HOME/.und_mainchain/config/genesis.json
@@ -109,11 +109,23 @@ On Debian:
 sudo apt install jq
 ```
 
-### 7.  restart the node
+### 7. Update the seed node info
+
+Check [https://github.com/unification-com/testnet/blob/master/latest/seed_nodes.md](https://github.com/unification-com/testnet/blob/master/latest/seed_nodes.md) - the seed node ID has been updated for TestNet-v5.
+
+You'll need tup update your `$HOME/.und_mainchain/config/config.toml` with the new seed node:
+
+```bash
+nano $HOME/.und_mainchain/config/config.toml
+```
+
+Find the `seeds = "...."` and update as per the latest [seed_nodes.md](https://github.com/unification-com/testnet/blob/master/latest/seed_nodes.md)
+
+### 8.  restart the node
 
 Restart your node and join the network.
 
-#### 7.1 `und` as a service
+#### 8.1 `und` as a service
 
 If you have set up the node to run as a service, for example:
 
@@ -133,7 +145,7 @@ and:
 $ sudo journalctl -u und --follow
 ```
 
-#### 7.2 manually running `und`
+#### 8.2 manually running `und`
 
 If you are running the node manually, for example:
 
@@ -141,7 +153,7 @@ If you are running the node manually, for example:
 und start
 ```
 
-### 8. Become a validator
+### 9. Re-register as a validator
 
 **Important**: Wait for your node to fully sync with the network before continuing.
 
