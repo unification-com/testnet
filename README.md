@@ -20,7 +20,7 @@ TestNet upgrades will occur when it is required to test new functinality. TestNe
 
 On **28/04/2020**, TestNet was upgraded from v4 to v5. In preparation for MainNet, and in order to test the deployment processes, `v5` was rebuilt and redeployed from the ground up.
 
-If your TestNet node is still running v4, please see the [v4 - v5 upgrade instructions](upgrades/TestNet_v4-v5_upgrade.md)
+If your TestNet node is still running v4, please see the [v4 - v5 upgrade instructions](upgrades/TestNet-v4-v5_upgrade.md)
 
 ### v3 - v4 minor upgrade
 
