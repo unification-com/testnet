@@ -66,7 +66,7 @@ und version --long
 
 This should output _at least_ `v1.4.3`
 
-### 4. Download the v5 genesis
+### 4. Download the v6 genesis
 
 ```bash
 curl https://raw.githubusercontent.com/unification-com/testnet/master/latest/genesis.json > $HOME/.und_mainchain/config/genesis.json
@@ -82,7 +82,7 @@ This will remove the old `v5` chain data, and retain your validation node keys a
 und unsafe-reset-all
 ```
 
-### 6. Verify v5 has downloaded
+### 6. Verify v6 has downloaded
 
 ```bash
 jq --raw-output '.chain_id' $HOME/.und_mainchain/config/genesis.json
