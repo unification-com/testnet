@@ -16,6 +16,12 @@ Past genesis files will be placed in directories according to version numbers ou
 
 TestNet upgrades will occur when it is required to test new functinality. TestNet upgrade instructions will be made available for those running nodes on TestNet.
 
+### v5 - v6 upgrade
+
+On **07/05/2020**, TestNet was upgraded from v5 to v6. In preparation for MainNet, and in order to test the deployment processes, `v6` was rebuilt and redeployed from the ground up.
+
+If your TestNet node is still running v5, please see the [v5 - v6 upgrade instructions](upgrades/TestNet-v5-v6_upgrade.md)
+
 ### v4 - v5 major upgrade
 
 On **28/04/2020**, TestNet was upgraded from v4 to v5. In preparation for MainNet, and in order to test the deployment processes, `v5` was rebuilt and redeployed from the ground up.
@@ -30,6 +36,7 @@ If your TestNet node is still running v3, please see the [v3 - v4 upgrade instru
 
 ## TestNet History
 
+- [v6.0](https://github.com/unification-com/testnet/tree/master/v6.0) - TestNet v6 - TestNet rebuilt & redeployed, 07/05/2020  
 - [v5.0](https://github.com/unification-com/testnet/tree/master/v5.0) - TestNet v5 - TestNet rebuilt & redeployed, 28/04/2020  
 - [v4.0](https://github.com/unification-com/testnet/tree/master/v4.0) - TestNet v4 - Enterprise Whitelist, 09/04/2020  
 - [v3.0](https://github.com/unification-com/testnet/tree/master/v3.0) - TestNet v3 - Governance, 21/02/2020  
