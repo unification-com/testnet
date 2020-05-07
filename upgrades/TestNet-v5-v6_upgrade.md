@@ -1,4 +1,4 @@
-# TestNet v4 to v5 Upgrade
+# TestNet v5 to v6 Upgrade
 
 On 07/05/2020 in preparation for MainNet deployment, TestNet was rebuilt from the ground up using the latest `und` software updates. Account data and associated funds from `TestNet-v5` have been retained in the `TestNet-v6` genesis so any keys and accounts can still be used in `v6`. However, TestNet validator nodes will need to re-register and self-delegate by running the `create-validator` command.
 
