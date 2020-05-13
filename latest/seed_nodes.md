@@ -1,5 +1,5 @@
 # Seed Nodes for TestNet
 
 **TestNet Seed 1**  
-af3ebb6009d16b93535cd9cceafb2288991cb5ed@seed1-testnet.unification.io:26656  
+8ab16c66103cd41f038b20133aba9ca0bcd2c14b@18.216.54.44:26656  
 
