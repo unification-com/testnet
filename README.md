@@ -16,6 +16,10 @@ Past genesis files will be placed in directories according to version numbers ou
 
 TestNet upgrades will occur when it is required to test new functinality. TestNet upgrade instructions will be made available for those running nodes on TestNet.
 
+### v8 - v9 upgrade
+
+No change, reset of genesis file for debugging.
+
 ### v7 - v8 upgrade
 
 There is no upgrade for v7 to v8
