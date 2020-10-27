@@ -1638,7 +1638,7 @@
       },
       "votes": null,
       "voting_params": {
-        "voting_period": "1800000000000"
+        "voting_period": "600000000000"
       }
     },
     "mint": {
@@ -17885,7 +17885,7 @@
       "starting_wrkchain_id": "1"
     }
   },
-  "chain_id": "FUND-Mainchain-TestNet-v9",
+  "chain_id": "FUND-Mainchain-TestNet-v10",
   "consensus_params": {
     "block": {
       "max_bytes": "22020096",
@@ -17902,7 +17902,7 @@
       ]
     }
   },
-  "genesis_time": "2020-07-28T10:00:00.011865684Z",
+  "genesis_time": "2020-10-27T10:00:00.011865684Z",
   "validators": [
     {
       "address": "",
