@@ -16,6 +16,10 @@ Past genesis files will be placed in directories according to version numbers ou
 
 TestNet upgrades will occur when it is required to test new functinality. TestNet upgrade instructions will be made available for those running nodes on TestNet.
 
+### v9 - v10 upgrade
+
+No change, reset of genesis file for debugging.
+
 ### v8 - v9 upgrade
 
 No change, reset of genesis file for debugging.
@@ -50,6 +54,8 @@ If your TestNet node is still running v3, please see the [v3 - v4 upgrade instru
 
 See [history](https://github.com/unification-com/testnet/tree/master/history)
 
+- [v10.0](https://github.com/unification-com/testnet/tree/master/history/v10.0) - TestNet v10 - TestNet rebuilt & redeployed, 27/10/2020  
+- [v9.0](https://github.com/unification-com/testnet/tree/master/history/v9.0) - TestNet v9 - TestNet rebuilt & redeployed, 08/2020  
 - [v8.0](https://github.com/unification-com/testnet/tree/master/history/v8.0) - TestNet v8 - TestNet rebuilt & redeployed, 22/08/2020  
 - [v7.0](https://github.com/unification-com/testnet/tree/master/history/v7.0) - TestNet v7 - TestNet rebuilt & redeployed, 30/07/2020  
 - [v6.0](https://github.com/unification-com/testnet/tree/master/history/v6.0) - TestNet v6 - TestNet rebuilt & redeployed, 07/05/2020  
