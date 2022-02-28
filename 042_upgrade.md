@@ -1,4 +1,4 @@
-# `und` Network Upgrade & Migration: TestNet
+# Network Upgrade & Migration: TestNet
 
 ## Upgrading from und v1.4.8 (Cosmos SDK 0.38) to und v1.5.0 (Cosmos SDK 0.42)
 
@@ -27,7 +27,7 @@ Full proposal text: [https://ipfs.io/ipfs/QmexYgqpYcQzzxuc1zo6zHVmHcXoQ72KRP5Lqk
 
 Edit your validator's `app.toml` to define the specified `halt-time`. This is a Unix epoch timestamp, and will tell the node to gracefully stop producing blocks at the specified time.
 
-**Important**: Ensure only the `halt-time` is set, **not** `halt-height`.
+**Important**: Ensure only the `halt-time` is set. **Do not** set `halt-height`.
 
 ```bash
 nano .und_mainchain/config/app.toml
@@ -120,7 +120,8 @@ tar -zxvf und_v1.4.9_linux_x86_64.tar.gz
 mv und und_1.4.9
 ```
 
-Export the current chain state to the new genesis:
+Export the current chain state to the new genesis.  
+**You must use `und` v1.4.9 to execute this**:
 
 ```bash
 $HOME/und_1.4.9 export --for-zero-height --home=$HOME/.und_mainchain > $HOME/v038_exported_state.json
@@ -160,7 +161,7 @@ Ensure `und` is v1.5.0
 Mirgate the exported genesis **using the `und` v1.5.0 binary**:
 
 ```bash
-/usr/local/bin/und migrate $HOME/v038_exported_state.json --chain-id=FUND-TestNet-2 --genesis-time="2022-02-16T14:22:37Z" --log_level="" > $HOME/new_v042_genesis.json
+/usr/local/bin/und migrate $HOME/v038_exported_state.json --chain-id=FUND-TestNet-2 --genesis-time="2022-03-10T14:00:00Z" --log_level="" > $HOME/new_v042_genesis.json
 ```
 
 **IMPORTANT** Set the `--log_level=""` in the command. Without it, log info will be output to the migrated genesis file!!
@@ -194,7 +195,7 @@ cp $HOME/new_v042_genesis.json $HOME/.und_mainchain/config/genesis.json
 Download the new 0.42 formatted `app.toml` and replace your old  version in `.und_mainchain/config`:
 
 ```bash
-wget https://github.com/unification-com/testnet/tree/master/latest/042_app.toml $HOME/.und_mainchain/config/app.toml
+curl https://raw.githubusercontent.com/unification-com/testnet/und_1.5.0_upgrade/latest/042_app.toml > $HOME/.und_mainchain/config/app.toml
 ```
 
 Modify as required:
@@ -288,7 +289,7 @@ Transfer/copy the new `genesis.json`, for example from your Validator node or Gi
 Download and configure the `app.toml` for Cosmos 0.42 chains.
 
 ```bash
-wget https://github.com/unification-com/testnet/tree/master/latest/042_app.toml $HOME/.und_mainchain/config/app.toml
+curl https://raw.githubusercontent.com/unification-com/testnet/und_1.5.0_upgrade/latest/042_app.toml > $HOME/.und_mainchain/config/app.toml
 ```
 
 Change the `log_level` in `config.toml`
