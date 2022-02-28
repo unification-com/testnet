@@ -218,7 +218,8 @@ log_level = "info"
 ```
 
 **Note:** You may also want to check the changes to [`config.toml`](latest/042_config.toml), and apply any to your node.
-The biggest changes are the addition of the `State Sync Configuration Options` section.
+The biggest changes are the addition of the `State Sync Configuration Options` section. **The version included
+in this repo is for reference only and should not be used to overwrite your existing `config.toml`**!
 
 Finally, start the node!
 
