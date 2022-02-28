@@ -21,9 +21,10 @@ Full proposal text: [https://ipfs.io/ipfs/QmexYgqpYcQzzxuc1zo6zHVmHcXoQ72KRP5Lqk
 
 ## 2. Validator Nodes: Pre-upgrade preparation
 
-### Configure the `halt-time`
+### Validators will need to configure the `halt-time` of their node before the proposed halt time
 
-**Important** ONLY VALIDATOR NODES. DO NOT SET HALT HEIGHT FOR SENTRIES/RPCs ETC. AS THEY WILL NEED TO PROPOGATE THE FINAL BLOCK SIGNED BY VALIDATORS TO OTHER VALIDATORS (for example, those behind sentry nodes)
+**Important** ONLY VALIDATOR NODES NEED TO SET THIS. 
+Do not set for sentries/RPCs etc. as they will need to propagate the final block signatures to other validators (for example, those behind sentry nodes)
 
 Edit your validator's `app.toml` to define the specified `halt-time`. This is a Unix epoch timestamp, and will tell the node to gracefully stop producing blocks at the specified time.
 
