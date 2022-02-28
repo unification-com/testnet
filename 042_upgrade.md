@@ -195,7 +195,7 @@ cp $HOME/new_v042_genesis.json $HOME/.und_mainchain/config/genesis.json
 Download the new 0.42 formatted `app.toml` and replace your old  version in `.und_mainchain/config`:
 
 ```bash
-curl https://raw.githubusercontent.com/unification-com/testnet/und_1.5.0_upgrade/latest/042_app.toml > $HOME/.und_mainchain/config/app.toml
+curl https://raw.githubusercontent.com/unification-com/testnet/master/latest/042_app.toml > $HOME/.und_mainchain/config/app.toml
 ```
 
 Modify as required:
@@ -289,7 +289,7 @@ Transfer/copy the new `genesis.json`, for example from your Validator node or Gi
 Download and configure the `app.toml` for Cosmos 0.42 chains.
 
 ```bash
-curl https://raw.githubusercontent.com/unification-com/testnet/und_1.5.0_upgrade/latest/042_app.toml > $HOME/.und_mainchain/config/app.toml
+curl https://raw.githubusercontent.com/unification-com/testnet/master/latest/042_app.toml > $HOME/.und_mainchain/config/app.toml
 ```
 
 Change the `log_level` in `config.toml`
