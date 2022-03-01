@@ -65,7 +65,7 @@ sudo journalctl -u und -f
 or
 
 ```bash
-sudo systemctl status sentinel1 -l -n 100
+sudo systemctl status und -l -n 100
 ```
 
 **Note**: you may need to increase the number of lines output `-n 100` in the above command.
