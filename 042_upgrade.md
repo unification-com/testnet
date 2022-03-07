@@ -312,11 +312,3 @@ Finally, start the node!
 sudo systemctl start und
 sudo journalctl -u und -f
 ```
-
-## 5. Migrate keys
-
-If you have any wallet keys in for example $HOME/.und_cli, or the OS keystore, they will need migrating.
-
-Backup first - especially if you use the same keystore for both MN and TN
-
-TODO - migration commands
