@@ -156,7 +156,7 @@ sudo mv und /usr/local/bin/und
 Ensure `und` is v1.5.0
 
 ```bash
-/usr/local/bin/und version --long
+/usr/local/bin/und version --long --log_level=""
 ```
 
 Mirgate the exported genesis **using the `und` v1.5.0 binary**:
@@ -171,20 +171,20 @@ Mirgate the exported genesis **using the `und` v1.5.0 binary**:
 Validate the migrated genesis:
 
 ```
-/usr/local/bin/und validate-genesis $HOME/new_v042_genesis.json
+/usr/local/bin/und validate-genesis --log_level="" $HOME/new_v042_genesis.json
 ```
 
 Generate a checksum and cross-reference with other operators in Discord/Telegram:
 
 ```bash
-jq -S -c -M '' $HOME/new_v042_genesis.json | shasum -a 256
-[SHASUM_PLACEHOLDER]  new_v042_genesis.json
+jq -S -c -M '' $HOME/new_v042_genesis.json | sha256sum
+[SHA256SUM_PLACEHOLDER]  -
 ```
 
 Reset the chain data for your node:
 
 ```bash
-/usr/local/bin/und unsafe-reset-all --home=$HOME/.und_mainchain
+/usr/local/bin/und unsafe-reset-all --log_level="" --home=$HOME/.und_mainchain
 ```
 
 Copy the new genesis file to replace the old version in `.und_mainchain/config`:
