@@ -36,6 +36,12 @@ tar -zxvf und_v1.6.0_linux_x86_64.tar.gz
 mv und $HOME/.und_mainchain/cosmovisor/upgrades/1-ibc/bin/
 ```
 
+3. Check the version is 1.6.0
+
+```bash
+$HOME/.und_mainchain/cosmovisor/upgrades/1-ibc/bin/und version --log_level ""
+```
+
 That's it! Once the upgrade height specified in the governance proposal is reached, Cosmovisor and the `upgrade`
 module will handle the rest automatically. 
 
