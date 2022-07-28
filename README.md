@@ -7,7 +7,13 @@ updated and available in [latest](https://github.com/unification-com/testnet/tre
 
 The current TestNet is `FUND-TestNet-2`
 
+## Migrating to Cosmovisor for `und` management
+
 See the [cosmovisor guide](cosmovisor.md) for a quickstart covering running `und` under `cosmovisor`
+
+## Upgrade: 1-ibc Block #2410500
+
+See [TestNet Network Upgrade: 1-ibc](1-ibc_upgrade.md) for a guide on preparing for the `1-ibc` upgrade
 
 ## TestNet History
 
