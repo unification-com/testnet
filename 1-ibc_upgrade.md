@@ -27,13 +27,13 @@ This will be dependent on how you configured `cosmovisor`, and your actual `.und
 mkdir -p $HOME/.und_mainchain/cosmovisor/upgrades/1-ibc/bin
 ```
 
-2. Download the latest `und` and add to Cosmovisor's `upgrades/1-ibc/bin` directory
+2. Download the latest `und` v1.6.x and add to Cosmovisor's `upgrades/1-ibc/bin` directory
 
 ```bash
-mkdir -p /home/centos/tmp/1-ibc && cd /home/centos/tmp/1-ibc
+mkdir -p $HOME/tmp/1-ibc && cd $HOME/tmp/1-ibc
 wget https://github.com/unification-com/mainchain/releases/download/1.6.0/und_v1.6.0_linux_x86_64.tar.gz
 tar -zxvf und_v1.6.0_linux_x86_64.tar.gz
-mv und /mnt/disks/data/.und_mainchain/cosmovisor/upgrades/1-ibc/bin/
+mv und $HOME/.und_mainchain/cosmovisor/upgrades/1-ibc/bin/
 ```
 
 That's it! Once the upgrade height specified in the governance proposal is reached, Cosmovisor and the `upgrade`
