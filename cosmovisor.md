@@ -61,6 +61,14 @@ DAEMON_RESTART_AFTER_UPGRADE=true
 
 ## 3. Edit systemd service file
 
+Stop the service
+
+```bash
+sudo systemcl stop und
+```
+
+Open the service file in a text editor
+
 ```bash
 sudo nano /etc/systemd/system/und.service
 ```
@@ -90,11 +98,11 @@ ExecStart=/usr/local/bin/cosmovisor run start --home /path/to/my/.und_mainchain
 
 ## 4. restart the und service
 
-Reload `systemd` and restart the `und` service
+Reload `systemd` and start the `und` service
 
 ```bash
 sudo systemctl daemon-reload
-sudo systemctl restart und
+sudo systemctl start und
 ```
 
 Check:
@@ -102,3 +110,5 @@ Check:
 ```bash
 sudo journalctl -u und -f
 ```
+
+The logs should be prefixed with `cosmovisor[PID]`
