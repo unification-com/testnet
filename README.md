@@ -11,14 +11,14 @@ The current TestNet is `FUND-TestNet-2`
 
 See the [cosmovisor guide](cosmovisor.md) for a quickstart covering running `und` under `cosmovisor`
 
-## Upgrade: 1-ibc Block #2410500
+## Upgrade to und v1.6.x: 1-ibc Block #2410500
 
 See [TestNet Network Upgrade: 1-ibc](1-ibc_upgrade.md) for a guide on preparing for the `1-ibc` upgrade
 
 ## TestNet History
 
-## IMPORTANT: TestNet was upgraded on March 10th 2022 at 12:00:00 GMT
-## See the [und v1.5.0 Upgrade Documentation](042_upgrade.md) for details.
+## IMPORTANT: TestNet was upgraded to und v1.5.1 on March 10th 2022 at 12:00:00 GMT
+## See the [und v1.5.x Upgrade Documentation](legacy/0.42/042_upgrade.md) for details.
 
 ### Legacy TestNet: Cosmos SDK 0.38 branch
 
