@@ -10,7 +10,7 @@ recommended that node operators fully read and understand the official documenta
 **Note**: The above documentation states that `go get github.com/cosmos/cosmos-sdk/cosmovisor/cmd/cosmovisor` should be run
 to install `cosmovisor`. However, this is not currently possible due to [issue 11305](https://github.com/cosmos/cosmos-sdk/issues/11305).
 As such, this guide directly downloads the `cosmovisor` binary from the Cosmos SDK repo. If you prefer to install via `go`,
-you will need to install `go` v1.18, `make`, `git`, and standard build tools such as `g++`, and build `cosmovisor` v1.1.0 from source,
+you will need to install `go` v1.18, `make`, `git`, and standard build tools such as `g++`, and build `cosmovisor` v1.2.0 from source,
 ignoring step 1 below.
 
 This guide assumes the `und` binary is running with `systemd` and that the user logging in via SSH is a `sudoer`. It also
@@ -20,8 +20,8 @@ assumes that the `.und_mainchain` home directory is the default `$HOME/.und_main
 
 ```bash
 mkdir $HOME/tmp && cd $HOME/tmp
-wget https://github.com/cosmos/cosmos-sdk/releases/download/cosmovisor%2Fv1.1.0/cosmovisor-v1.1.0-linux-amd64.tar.gz
-tar -zxvf cosmovisor-v1.1.0-linux-amd64.tar.gz
+wget https://github.com/cosmos/cosmos-sdk/releases/download/cosmovisor%2Fv1.2.0/cosmovisor-v1.2.0-linux-amd64.tar.gz
+tar -zxvf cosmovisor-v1.2.0-linux-amd64.tar.gz
 sudo mv cosmovisor /usr/local/bin/cosmovisor
 ```
 
@@ -58,6 +58,15 @@ DAEMON_NAME=und
 DAEMON_HOME=$HOME/.und_mainchain
 DAEMON_RESTART_AFTER_UPGRADE=true
 ```
+
+Optionally add a value for `DAEMON_RESTART_DELAY` (must be in seconds, e.g. `5s`)
+
+```bash
+DAEMON_RESTART_DELAY=5s
+```
+
+See https://github.com/cosmos/cosmos-sdk/blob/main/cosmovisor/README.md#command-line-arguments-and-environment-variables for
+other environment variables.
 
 ## 3. Edit systemd service file
 
