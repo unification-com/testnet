@@ -36,6 +36,21 @@ tar -zxvf und_v1.6.0_linux_x86_64.tar.gz
 mv und $HOME/.und_mainchain/cosmovisor/upgrades/1-ibc/bin/
 ```
 
+The directory structure for `$HOME/.und_mainchain/cosmovisor` should now look as follows:
+
+```
+.
+├── current -> /path/to/.und_mainchain/cosmovisor/genesis
+├── genesis
+│   └── bin
+│       └── und
+├── UND_COSMOVISOR_ENV
+└── upgrades
+    └── 1-ibc
+        └── bin
+            └── und
+```
+
 3. Check the version is 1.6.0
 
 ```bash
