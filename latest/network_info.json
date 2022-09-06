@@ -22,7 +22,7 @@
       "state_export": "NO"
     }
   ],
-  "services:": {
+  "services": {
     "seed": {
       "foundation": [
         {
