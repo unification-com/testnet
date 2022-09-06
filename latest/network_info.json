@@ -1,4 +1,5 @@
 {
+  "current_chain_id": "FUND-TestNet-2",
   "upgrades": [
     {
       "und": "v1.4.8 ",
