@@ -12,5 +12,8 @@
     "http://sync1-testnet.unification.io:26657",
     "http://sync2-testnet.unification.io:26657"
   ],
+  "explorer": [
+    "https://explorer-testnet.unification.io"
+  ],
   "legacy": {}
 }
