@@ -100,7 +100,8 @@
           "src": {
             "chain_name": "FUND TestNet",
             "chain_id": "FUND-TestNet-2",
-            "channel": "channel-0"
+            "channel": "channel-0",
+            "coin_id": "nund"
           },
           "dest": {
             "chain_name": "Cosmos Hub Theta Testnet",
