@@ -1,0 +1,97 @@
+{
+  "upgrades": [
+    {
+      "und": "v1.4.8 ",
+      "chain_id": "FUND-Mainchain-TestNet-v12",
+      "from": "genesis",
+      "to": "",
+      "state_export": "N/A"
+    },
+    {
+      "und": "v1.5.1 ",
+      "chain_id": "FUND-TestNet-2",
+      "from": "genesis",
+      "to": "2410499",
+      "state_export": "YES"
+    },
+    {
+      "und": "v1.6.1 ",
+      "chain_id": "FUND-TestNet-2",
+      "from": "2410500",
+      "to": "current",
+      "state_export": "NO"
+    }
+  ],
+  "services:": {
+    "seed": {
+      "foundation": [
+        {
+          "name": "seed1",
+          "url": "e428c5653865da4a55f5599d7ff3203789abadfd@seed-testnet.unification.io:26656",
+          "link": false
+        }
+      ],
+      "community": [],
+      "legacy": []
+    },
+    "rpc": {
+      "foundation": [
+        {
+          "name": "rpc1 (http)",
+          "url": "https://rpc-testnet.unification.io",
+          "link": true
+        },
+        {
+          "name": "rpc1 (tcp)",
+          "url": "tcp://rpc-testnet.unification.io:443",
+          "link": false
+        }
+      ],
+      "community": [],
+      "legacy": []
+    },
+    "rest": {
+      "foundation": [
+        {
+          "name": "rest",
+          "url": "https://rest-testnet.unification.io",
+          "link": true
+        },
+        {
+          "name": "rest (swagger)",
+          "url": "https://rest-testnet.unification.io/swagger/",
+          "link": true
+        }
+      ],
+      "community": [],
+      "legacy": []
+    },
+    "state_sync": {
+      "foundation": [
+        {
+          "name": "statesync1",
+          "url": "sync1-testnet.unification.io:26657",
+          "link": false
+        },
+        {
+          "name": "statesync2",
+          "url": "sync2-testnet.unification.io:26657",
+          "link": false
+        }
+      ],
+      "community": [],
+      "legacy": []
+    },
+    "explorer": {
+      "foundation": [
+        {
+          "name": "explorer",
+          "url": "https://explorer-testnet.unification.io",
+          "link": true
+        }
+      ],
+      "community": [],
+      "legacy": []
+    }
+  }
+}
