@@ -93,6 +93,24 @@
       ],
       "community": [],
       "legacy": []
+    },
+    "ibc_relayers": {
+      "foundation": [
+        {
+          "src": {
+            "chain_name": "FUND TestNet",
+            "chain_id": "FUND-TestNet-2",
+            "channel": "channel-0"
+          },
+          "dest": {
+            "chain_name": "Cosmos Hub Theta Testnet",
+            "chain_id": "theta-testnet-001",
+            "channel": "channel-603",
+            "coin_id": "ibc/506A506EDCEE8101A08FA0D88FFAF57858DC5AF3319C18AB2CD0CBB4A18D5326"
+          }
+        }
+      ],
+      "community": []
     }
   }
 }
