@@ -3,14 +3,16 @@
     "e428c5653865da4a55f5599d7ff3203789abadfd@seed-testnet.unification.io:26656"
   ],
   "rpc": [
-    "https://rpc-testnet.unification.io:443"
+    "https://rpc-testnet.unification.io",
+    "tcp://rpc-testnet.unification.io:443"
   ],
   "rest": [
-    "https://rest-testnet.unification.io"
+    "https://rest-testnet.unification.io",
+    "https://rest-testnet.unification.io/swagger/"
   ],
   "state_sync": [
-    "http://sync1-testnet.unification.io:26657",
-    "http://sync2-testnet.unification.io:26657"
+    "sync1-testnet.unification.io:26657",
+    "sync2-testnet.unification.io:26657"
   ],
   "explorer": [
     "https://explorer-testnet.unification.io"
