@@ -11,9 +11,9 @@ The current TestNet is `FUND-TestNet-2`
 
 See the [cosmovisor guide](cosmovisor.md) for a quickstart covering running `und` under `cosmovisor`
 
-## Upgrade to und v1.6.x: 1-ibc Block #2410500
+## Upgrade to und v1.8.x: 3-keyleth Block #7841840
 
-See [TestNet Network Upgrade: 1-ibc](1-ibc_upgrade.md) for a guide on preparing for the `1-ibc` upgrade
+See [TestNet Network Upgrade: 3-keyleth](3-keyleth_upgrade.md) for a guide on preparing for the `3-keyleth` upgrade
 
 ## TestNet History
 

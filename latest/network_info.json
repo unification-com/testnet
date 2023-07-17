@@ -29,9 +29,17 @@
       "und": "v1.7.0",
       "chain_id": "FUND-TestNet-2",
       "from": "5840430",
-      "to": "current",
+      "to": "7841839",
       "state_export": "NO",
       "upgrade_plan": "2-grog"
+    },
+    {
+      "und": "v1.8.0",
+      "chain_id": "FUND-TestNet-2",
+      "from": "7841840",
+      "to": "current",
+      "state_export": "NO",
+      "upgrade_plan": "3-keyleth"
     }
   ],
   "services": {
