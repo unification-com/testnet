@@ -31,8 +31,8 @@ mkdir -p $HOME/.und_mainchain/cosmovisor/upgrades/3-keyleth/bin
 
 ```bash
 mkdir -p $HOME/tmp/3-keyleth && cd $HOME/tmp/3-keyleth
-wget https://github.com/unification-com/mainchain/releases/download/v1.8.0/und_v1.8.0_linux_x86_64.tar.gz
-tar -zxvf und_v1.8.0_linux_x86_64.tar.gz
+wget https://github.com/unification-com/mainchain/releases/download/v1.8.1/und_v1.8.1_linux_x86_64.tar.gz
+tar -zxvf und_v1.8.1_linux_x86_64.tar.gz
 mv und $HOME/.und_mainchain/cosmovisor/upgrades/3-keyleth/bin/
 ```
 
@@ -57,7 +57,7 @@ The directory structure for `$HOME/.und_mainchain/cosmovisor` should now look as
             └── und
 ```
 
-3. Check the version is 1.8.0
+3. Check the version is 1.8.1
 
 ```bash
 $HOME/.und_mainchain/cosmovisor/upgrades/3-keyleth/bin/und version --log_level ""
