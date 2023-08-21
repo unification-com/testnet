@@ -34,7 +34,7 @@
       "upgrade_plan": "2-grog"
     },
     {
-      "und": "v1.8.1",
+      "und": "v1.8.2",
       "chain_id": "FUND-TestNet-2",
       "from": "7841840",
       "to": "current",
