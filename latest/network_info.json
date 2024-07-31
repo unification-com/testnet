@@ -45,9 +45,17 @@
       "und": "v1.9.0",
       "chain_id": "FUND-TestNet-2",
       "from": "11657000",
-      "to": "current",
+      "to": "13910299",
       "state_export": "NO",
       "upgrade_plan": "4-percival"
+    },
+    {
+      "und": "v1.10.0",
+      "chain_id": "FUND-TestNet-2",
+      "from": "13910300",
+      "to": "current",
+      "state_export": "NO",
+      "upgrade_plan": "5-pike"
     }
   ],
   "services": {
