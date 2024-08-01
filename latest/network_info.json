@@ -50,7 +50,7 @@
       "upgrade_plan": "4-percival"
     },
     {
-      "und": "v1.10.0",
+      "und": "v1.10.1",
       "chain_id": "FUND-TestNet-2",
       "from": "13910300",
       "to": "current",
