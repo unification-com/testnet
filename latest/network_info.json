@@ -62,7 +62,7 @@
     "seed": {
       "foundation": [
         {
-          "name": "seed1",
+          "name": "Seed 1",
           "url": "e428c5653865da4a55f5599d7ff3203789abadfd@seed-testnet.unification.io:26656",
           "link": false
         }
@@ -73,13 +73,23 @@
     "rpc": {
       "foundation": [
         {
-          "name": "rpc1 (http)",
+          "name": "RPC (HTTPS)",
           "url": "https://rpc-testnet.unification.io",
           "link": true
         },
         {
-          "name": "rpc1 (tcp)",
+          "name": "RPC (TCP)",
           "url": "tcp://rpc-testnet.unification.io:443",
+          "link": false
+        },
+        {
+          "name": "RPC Websocket",
+          "url": "wss://wss-testnet.unification.io",
+          "link": false
+        },
+        {
+          "name": "gRPC",
+          "url": "https://grpc-testnet.unification.io",
           "link": false
         }
       ],
@@ -89,12 +99,12 @@
     "rest": {
       "foundation": [
         {
-          "name": "rest",
+          "name": "REST",
           "url": "https://rest-testnet.unification.io",
           "link": true
         },
         {
-          "name": "rest (swagger)",
+          "name": "Swagger API",
           "url": "https://rest-testnet.unification.io/swagger/",
           "link": true
         }
@@ -105,12 +115,12 @@
     "state_sync": {
       "foundation": [
         {
-          "name": "statesync1",
+          "name": "State Sync 1",
           "url": "sync1-testnet.unification.io:26657",
           "link": false
         },
         {
-          "name": "statesync2",
+          "name": "State Sync 2",
           "url": "sync2-testnet.unification.io:26657",
           "link": false
         }
