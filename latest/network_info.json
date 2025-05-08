@@ -53,9 +53,17 @@
       "und": "v1.10.1",
       "chain_id": "FUND-TestNet-2",
       "from": "13910300",
-      "to": "current",
+      "to": "18359369",
       "state_export": "NO",
       "upgrade_plan": "5-pike"
+    },
+    {
+      "und": "v1.11.0",
+      "chain_id": "FUND-TestNet-2",
+      "from": "18359370",
+      "to": "current",
+      "state_export": "NO",
+      "upgrade_plan": "6-scanlan"
     }
   ],
   "services": {
